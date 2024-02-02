@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+header{
+    height: 180px;
+}
+header img{
+    width: 250px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    padding: 0 5px;
+    line-height: 20px;
+}
+.menu>ul>li>a:hover{
+    text-decoration: underline;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 160px;
+}
+.menu ul ul a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+}
+.menu ul ul a:hover{
+    text-decoration: underline;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+.authenticate img{
+    padding-right: 25px;
+}
+#Signup{
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px gray;
+    color: black;
+    background-color: whitesmoke;
+    margin-right: 20px;
+}
+.authenticate #Signin{
+    margin-right: 20px;
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: greenyellow;
+    background-color: gray;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.banner2{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.products h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.listproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.product p{
+    color: #1B6844;
+    font-size: 25px;
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+.product span{
+    color: red;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.trees h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.listtrees{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.tree p{
+    color: #1B6844;
+    font-size: 23px;
+    line-height: 30px;
+}
+.tree span{
+    color: red;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+.flowerpots h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.Listflowerpots{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.flowerpot p{
+    color: #1B6844;
+    font-size: 23px;
+    line-height: 30px;
+}
+.flowerpot span{
+    color: red;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/* .CTU{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 40px;
+    margin-top:90px;
+}
+.CTU p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.inp{
+    width: 620px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.son{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+}
+.mess p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.inp2{
+    width: 1280px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.mess .inp2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 20px;
+}
+.sub{
+    width: 180px;
+    height: 64px;
+    background: #000000;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 32px 550px;
+} */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    align-items: center;
+    background-color: #000000;
+    color:hsl(0, 0%, 100%);
+    height: 500px;
+    width: 100%;
+}
+footer img{
+    text-align: center;
+    width: 77%;
+    padding-left: 25%;
+}
+footer p{
+    line-height: 40px;
+    font-size: 15px;
+}
+footer h1{
+    line-height: 90px;
+    font-size: 40px;
+}
+.last{
+    padding-left: 30px;
+}
+.banner{
+    padding-top: 80px;
+}
+
+.banner3{
+    margin-bottom: 60px;
+}
+
+
+/* .menu li::after{
+    width: 0;
+    height: 6px;
+    background-color: black;
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 30;
+    transition: width 1s;
+}
+.menu li:hover::after{
+    width: 100%;
+} */
+
+/* zoom */
+.product .but{
+    width: 92%;
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img:hover{
+transform: scale(1.08);
+transition: 1s;
+}
+.product img:hover{
+    filter: opacity(80%);
+}
+.tree img:hover{
+    filter: opacity(80%);
+}
+.flowerpot img:hover{
+    filter: opacity(80%);
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.inp_seach{
+    width: 30%;
+    border: #000000 solid 1px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.inp_submit{
+    width: 10%;
+    background-color: #bbb;
+    color: black;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.giohang{
+    width: 70%;
+    background-color: rgb(70, 232, 253);
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}

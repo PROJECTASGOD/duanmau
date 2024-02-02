@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+header{
+    height: 180px;
+}
+header img{
+    width: 250px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    padding: 0 5px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    text-decoration: underline;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 160px;
+}
+.menu ul ul a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+.menu ul ul a:hover{
+    text-decoration: underline;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+.authenticate img{
+    padding-right: 25px;
+}
+#Signup{
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px gray;
+    color: black;
+    background-color: whitesmoke;
+    margin-right: 20px;
+}
+.authenticate #Signin{
+    margin-right: 20px;
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: greenyellow;
+    background-color: gray;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.banner2{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.products h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.listproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.product p{
+    color: #1B6844;
+    font-size: 25px;
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+.product span{
+    color: red;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.trees h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+.trees{
+    margin-top: 20px;
+}
+.listtrees{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.tree p{
+    color: #1B6844;
+    font-size: 23px;
+    line-height: 30px;
+}
+.tree span{
+    color: red;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.banner{
+    margin-bottom: 60px;
+}
+.flowerpots h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.Listflowerpots{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.flowerpot p{
+    color: #1B6844;
+    font-size: 23px;
+    line-height: 30px;
+}
+.flowerpot span{
+    color: red;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    align-items: center;
+    background-color: #000000;
+    color:hsl(0, 0%, 100%);
+    height: 500px;
+    width: 100%;
+}
+footer img{
+    text-align: center;
+    width: 77%;
+    padding-left: 25%;
+}
+footer p{
+    line-height: 40px;
+    font-size: 15px;
+}
+footer h1{
+    line-height: 90px;
+    font-size: 40px;
+}
+.last{
+    padding-left: 30px;
+}
+.banner{
+    padding-top: 80px;
+}
+
+.banner3{
+    margin-bottom: 60px;
+}
+
+.inforpro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    margin-bottom: 60px;
+}
+.infor p{
+    line-height: 60px;
+}
+.infor span{
+    color: #1B6844;
+    font-weight: bold;
+    line-height: 30px;
+}
+.buying{
+    border-radius: 5px;
+    background-color: white;
+    color: #1B6844;
+    font-weight: bold;
+    padding-bottom: 5px;
+    width: 100px;
+    align-items: center;
+}
+.buying img{
+    margin-top: 5px;
+}
+
+.ab h1{
+    color: #1B6844;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+img:hover{
+    transform: scale(1.08);
+    transition: 1s;
+    }
